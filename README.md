@@ -23,3 +23,11 @@ The Exploratory Data Analysis (EDA) and Visualization on Airbnb Dataset is a com
 
 
 ## Exploratory-Data-Analysis
+
+```py
+#To show the Attribotes and it's Datatype
+a.info()
+```
+Result : 
+# <p align="center"> ![image](https://github.com/manojgaikwad13/Exploratory-Data-Analysis-Visualisation-on-Airbnb-Dataset/assets/96239993/fd5e042f-1eee-46c1-831b-34bec6ebc705)
+</p>
