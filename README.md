@@ -29,9 +29,7 @@ The Exploratory Data Analysis (EDA) and Visualization on Airbnb Dataset is a com
 a.info()
 ```
 Result : 
-# <p align="center"> ![image](https://github.com/manojgaikwad13/Exploratory-Data-Analysis-Visualisation-on-Airbnb-Dataset/assets/96239993/1ada09f4-d964-43c3-9bcd-20106c5e0bc2)
-
-
+# <p align="center">![image](https://github.com/manojgaikwad13/Exploratory-Data-Analysis-Visualisation-on-Airbnb-Dataset/assets/96239993/e62e255d-db72-40ea-8f16-1a6f6bc9b2d6)
 </p>
 
 
