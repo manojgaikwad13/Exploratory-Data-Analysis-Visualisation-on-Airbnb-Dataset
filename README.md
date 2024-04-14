@@ -32,5 +32,87 @@ Result :
 # <p align="center">![image](https://github.com/manojgaikwad13/Exploratory-Data-Analysis-Visualisation-on-Airbnb-Dataset/assets/96239993/e62e255d-db72-40ea-8f16-1a6f6bc9b2d6)
 </p>
 
+```py
+#To show the Statistical Summary of a Dataset
+a.describe()
+```
+Result : 
+# <p align="center">![image](https://github.com/manojgaikwad13/Exploratory-Data-Analysis-Visualisation-on-Airbnb-Dataset/assets/96239993/cbb617bc-cc5d-43e8-8872-0ab5f9c90d8f)
+</p>
+
+```py
+#To show the Attribotes and it's Datatype
+a.info()
+```
+Result : 
+# <p align="center">![image](https://github.com/manojgaikwad13/Exploratory-Data-Analysis-Visualisation-on-Airbnb-Dataset/assets/96239993/e62e255d-db72-40ea-8f16-1a6f6bc9b2d6)
+</p>
+
+```py
+#To show the Attribotes and it's Datatype
+a.info()
+```
+Result : 
+# <p align="center">![image](https://github.com/manojgaikwad13/Exploratory-Data-Analysis-Visualisation-on-Airbnb-Dataset/assets/96239993/e62e255d-db72-40ea-8f16-1a6f6bc9b2d6)
+</p>
+
+```py
+#To show the Attribotes and it's Datatype
+a.info()
+```
+Result : 
+# <p align="center">![image](https://github.com/manojgaikwad13/Exploratory-Data-Analysis-Visualisation-on-Airbnb-Dataset/assets/96239993/e62e255d-db72-40ea-8f16-1a6f6bc9b2d6)
+</p>
+
+```py
+#To show the Attribotes and it's Datatype
+a.info()
+```
+Result : 
+# <p align="center">![image](https://github.com/manojgaikwad13/Exploratory-Data-Analysis-Visualisation-on-Airbnb-Dataset/assets/96239993/e62e255d-db72-40ea-8f16-1a6f6bc9b2d6)
+</p>
+
+```py
+#To show the Attribotes and it's Datatype
+a.info()
+```
+Result : 
+# <p align="center">![image](https://github.com/manojgaikwad13/Exploratory-Data-Analysis-Visualisation-on-Airbnb-Dataset/assets/96239993/e62e255d-db72-40ea-8f16-1a6f6bc9b2d6)
+</p>
+
+```py
+#To show the Attribotes and it's Datatype
+a.info()
+```
+Result : 
+# <p align="center">![image](https://github.com/manojgaikwad13/Exploratory-Data-Analysis-Visualisation-on-Airbnb-Dataset/assets/96239993/e62e255d-db72-40ea-8f16-1a6f6bc9b2d6)
+</p>
+
+```py
+#To show the Attribotes and it's Datatype
+a.info()
+```
+Result : 
+# <p align="center">![image](https://github.com/manojgaikwad13/Exploratory-Data-Analysis-Visualisation-on-Airbnb-Dataset/assets/96239993/e62e255d-db72-40ea-8f16-1a6f6bc9b2d6)
+</p>
+
+```py
+#To show the Attribotes and it's Datatype
+a.info()
+```
+Result : 
+# <p align="center">![image](https://github.com/manojgaikwad13/Exploratory-Data-Analysis-Visualisation-on-Airbnb-Dataset/assets/96239993/e62e255d-db72-40ea-8f16-1a6f6bc9b2d6)
+</p>
+
+```py
+#To show the Attribotes and it's Datatype
+a.info()
+```
+Result : 
+# <p align="center">![image](https://github.com/manojgaikwad13/Exploratory-Data-Analysis-Visualisation-on-Airbnb-Dataset/assets/96239993/e62e255d-db72-40ea-8f16-1a6f6bc9b2d6)
+</p>
+
+
+
 
 
