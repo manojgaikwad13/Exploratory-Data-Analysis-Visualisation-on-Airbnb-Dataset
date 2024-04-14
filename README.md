@@ -11,5 +11,15 @@ The Exploratory Data Analysis (EDA) and Visualization on Airbnb Dataset is a com
 
 [Datasets Used](Airbnb_Excel.xls)
 
-[Python Script (Code)](
+[Python Script (Code)](Python_Project.ipynb)
 
+## Requirements
+
+- Python 3
+
+- Libraries: NumPy, pandas, Sklearn, etc.
+
+- Jupyter Lab
+
+
+## Exploratory-Data-Analysis
