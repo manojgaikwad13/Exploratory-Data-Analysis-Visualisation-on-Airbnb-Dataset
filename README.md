@@ -223,6 +223,7 @@ print("The cheapest neighborhood is :", s.sort_values().head(1))
 Result : 
 # <p align="center">![image](https://github.com/manojgaikwad13/Exploratory-Data-Analysis-Visualisation-on-Airbnb-Dataset/assets/96239993/e62e255d-db72-40ea-8f16-1a6f6bc9b2d6)
 </p>
+
 ```py
 #List the neighborhoods which offer short term rentals within 10 days.Illustrate with a bar graph
 f = a.groupby('neighbourhood')['minimum nights'].mean().sort_values()
@@ -237,6 +238,7 @@ plt.show()
 Result : 
 # <p align="center">![image](https://github.com/manojgaikwad13/Exploratory-Data-Analysis-Visualisation-on-Airbnb-Dataset/assets/96239993/e62e255d-db72-40ea-8f16-1a6f6bc9b2d6)
 </p>
+
 ```py
 #List the prices with respect to room type using a bar graph and also state your inferences.
 d = a.groupby('room type')['price in dollars'].mean()
