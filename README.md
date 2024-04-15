@@ -136,6 +136,7 @@ Result :
 # <p align="center">![image](https://github.com/manojgaikwad13/Exploratory-Data-Analysis-Visualisation-on-Airbnb-Dataset/assets/96239993/e62e255d-db72-40ea-8f16-1a6f6bc9b2d6)
 </p>
 
+
 ```py
 #Which room type has strict cancellation policy
 h = a[a['cancellation_policy'] == 'strict']
@@ -146,6 +147,7 @@ Result :
 # <p align="center">![image](https://github.com/manojgaikwad13/Exploratory-Data-Analysis-Visualisation-on-Airbnb-Dataset/assets/96239993/e62e255d-db72-40ea-8f16-1a6f6bc9b2d6)
 </p>
 
+
 ```py
 #To List the average price per neighborhood group
 j = a.groupby('neighbourhood group')['price in dollars'].mean()
@@ -154,6 +156,7 @@ j
 Result : 
 # <p align="center">![image](https://github.com/manojgaikwad13/Exploratory-Data-Analysis-Visualisation-on-Airbnb-Dataset/assets/96239993/e62e255d-db72-40ea-8f16-1a6f6bc9b2d6)
 </p>
+
 
 ```py
 #Most expensive neighborhood to rent from
@@ -165,6 +168,8 @@ Result :
 # <p align="center">![image](https://github.com/manojgaikwad13/Exploratory-Data-Analysis-Visualisation-on-Airbnb-Dataset/assets/96239993/e62e255d-db72-40ea-8f16-1a6f6bc9b2d6)
 </p>
 
+##DATA VISUALIZATION
+
 ```py
 #List the count of various room types avaliable with Airnb
 l = a.groupby('room type').size()
@@ -173,8 +178,10 @@ plt.pie(l,labels = m,autopct='%1.1f%%')
 plt.show()
 ```
 Result : 
-# <p align="center">![image](https://github.com/manojgaikwad13/Exploratory-Data-Analysis-Visualisation-on-Airbnb-Dataset/assets/96239993/e62e255d-db72-40ea-8f16-1a6f6bc9b2d6)
+# <p align="center">![image](https://github.com/manojgaikwad13/Exploratory-Data-Analysis-Visualisation-on-Airbnb-Dataset/assets/96239993/9434c530-4277-40fa-b4d1-0eb0d65029a5)
+
 </p>
+
 
 ```py
 #Which room type adheres to more strict cancellation policy
@@ -185,8 +192,9 @@ plt.pie(o,labels = p,autopct='%1.1f%%')
 plt.show()
 ```
 Result : 
-# <p align="center">![image](https://github.com/manojgaikwad13/Exploratory-Data-Analysis-Visualisation-on-Airbnb-Dataset/assets/96239993/e62e255d-db72-40ea-8f16-1a6f6bc9b2d6)
+# <p align="center">![image](https://github.com/manojgaikwad13/Exploratory-Data-Analysis-Visualisation-on-Airbnb-Dataset/assets/96239993/c450b734-37ff-4e62-b890-482644194fd5)
 </p>
+
 
 ```py
 #List the prices by neighborhood group and also mention which is the most expensive neighborhood group for rentals
@@ -199,8 +207,9 @@ most_expensive_price = q.max()
 print("The Most Expensive Neighborhood group for rentals : ", most_expensive_neighborhood , most_expensive_price)
 ```
 Result : 
-# <p align="center">![image](https://github.com/manojgaikwad13/Exploratory-Data-Analysis-Visualisation-on-Airbnb-Dataset/assets/96239993/e62e255d-db72-40ea-8f16-1a6f6bc9b2d6)
+# <p align="center">![image](https://github.com/manojgaikwad13/Exploratory-Data-Analysis-Visualisation-on-Airbnb-Dataset/assets/96239993/173c19f6-b7b7-4761-b4c4-8978a52a89de)
 </p>
+
 
 ```py
 #List the top 10 neighborhoods in the increasing order of their price with the help of a horizontal bar graph. Which is the cheapest neighborhood.
@@ -210,8 +219,9 @@ plt.show()
 print("The cheapest neighborhood is :", s.sort_values().head(1))
 ```
 Result : 
-# <p align="center">![image](https://github.com/manojgaikwad13/Exploratory-Data-Analysis-Visualisation-on-Airbnb-Dataset/assets/96239993/e62e255d-db72-40ea-8f16-1a6f6bc9b2d6)
+# <p align="center">![image](https://github.com/manojgaikwad13/Exploratory-Data-Analysis-Visualisation-on-Airbnb-Dataset/assets/96239993/8a36f128-b992-4bfa-83c2-c1bd64d5fe51)
 </p>
+
 
 ```py
 #List the neighborhoods which offer short term rentals within 10 days.Illustrate with a bar graph
@@ -225,8 +235,9 @@ plt.ylabel('minimum nights')
 plt.show()
 ```
 Result : 
-# <p align="center">![image](https://github.com/manojgaikwad13/Exploratory-Data-Analysis-Visualisation-on-Airbnb-Dataset/assets/96239993/e62e255d-db72-40ea-8f16-1a6f6bc9b2d6)
+# <p align="center">![image](https://github.com/manojgaikwad13/Exploratory-Data-Analysis-Visualisation-on-Airbnb-Dataset/assets/96239993/cb8017ad-af7c-4be7-a4c2-385f5e72de55)
 </p>
+
 
 ```py
 #List the prices with respect to room type using a bar graph and also state your inferences.
@@ -239,8 +250,9 @@ plt.ylabel('prices')
 plt.show()
 ```
 Result : 
-# <p align="center">![image](https://github.com/manojgaikwad13/Exploratory-Data-Analysis-Visualisation-on-Airbnb-Dataset/assets/96239993/e62e255d-db72-40ea-8f16-1a6f6bc9b2d6)
+# <p align="center">![image](https://github.com/manojgaikwad13/Exploratory-Data-Analysis-Visualisation-on-Airbnb-Dataset/assets/96239993/965e3375-e914-4872-b23b-9751e2051d56)
 </p>
+
 
 ```py
 #Create a pie chart that shows distribution of booked days for each neighborhood group 
@@ -250,15 +262,16 @@ plt.pie(x,labels = y,autopct='%1.1f%%')
 plt.show()
 ```
 Result : 
-# <p align="center">![image](https://github.com/manojgaikwad13/Exploratory-Data-Analysis-Visualisation-on-Airbnb-Dataset/assets/96239993/e62e255d-db72-40ea-8f16-1a6f6bc9b2d6)
+# <p align="center">![image](https://github.com/manojgaikwad13/Exploratory-Data-Analysis-Visualisation-on-Airbnb-Dataset/assets/96239993/28b0751d-da65-4518-9e79-4b91507e8986)
 </p>
+
 
 ```py
 #Which neighborhood has the highest booking percentage
 a.groupby('neighbourhood')['availability 365'].mean().sort_values().head(1)
 ```
 Result : 
-# <p align="center">![image](https://github.com/manojgaikwad13/Exploratory-Data-Analysis-Visualisation-on-Airbnb-Dataset/assets/96239993/e62e255d-db72-40ea-8f16-1a6f6bc9b2d6)
+# <p align="center">![image](https://github.com/manojgaikwad13/Exploratory-Data-Analysis-Visualisation-on-Airbnb-Dataset/assets/96239993/970829aa-d19e-48dc-be49-a3dc5d0f4f71)
 </p>
 
 
