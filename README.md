@@ -168,7 +168,7 @@ Result :
 # <p align="center">![image](https://github.com/manojgaikwad13/Exploratory-Data-Analysis-Visualisation-on-Airbnb-Dataset/assets/96239993/e62e255d-db72-40ea-8f16-1a6f6bc9b2d6)
 </p>
 
-##DATA VISUALIZATION
+## DATA VISUALIZATION
 
 ```py
 #List the count of various room types avaliable with Airnb
