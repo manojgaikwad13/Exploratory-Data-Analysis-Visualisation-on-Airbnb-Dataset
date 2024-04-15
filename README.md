@@ -1,4 +1,4 @@
-.032# <p align="center"> Exploratory-Data-Analysis-Visualisation-on-Airbnb-Dataset </p>
+# <p align="center"> Exploratory-Data-Analysis-Visualisation-on-Airbnb-Dataset </p>
 
 # <p align="center"> ![image](https://github.com/manojgaikwad13/Exploratory-Data-Analysis-Visualisation-on-Airbnb-Dataset/assets/96239993/f83e3c21-e5b2-48d1-ad71-9a3fb51477a5) 
  </p>
@@ -252,6 +252,26 @@ plt.show()
 Result : 
 # <p align="center">![image](https://github.com/manojgaikwad13/Exploratory-Data-Analysis-Visualisation-on-Airbnb-Dataset/assets/96239993/e62e255d-db72-40ea-8f16-1a6f6bc9b2d6)
 </p>
+
+```py
+#Create a pie chart that shows distribution of booked days for each neighborhood group 
+x = a.groupby('neighbourhood group')['availability 365'].size()
+y = ['Brooklyn','Bronx','Manhattan','Staten Island','Queens','brookln','manhatan']
+plt.pie(x,labels = y,autopct='%1.1f%%')
+plt.show()
+```
+Result : 
+# <p align="center">![image](https://github.com/manojgaikwad13/Exploratory-Data-Analysis-Visualisation-on-Airbnb-Dataset/assets/96239993/e62e255d-db72-40ea-8f16-1a6f6bc9b2d6)
+</p>
+
+```py
+#Which neighborhood has the highest booking percentage
+a.groupby('neighbourhood')['availability 365'].mean().sort_values().head(1)
+```
+Result : 
+# <p align="center">![image](https://github.com/manojgaikwad13/Exploratory-Data-Analysis-Visualisation-on-Airbnb-Dataset/assets/96239993/e62e255d-db72-40ea-8f16-1a6f6bc9b2d6)
+</p>
+
 
 
 
