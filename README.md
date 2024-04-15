@@ -41,20 +41,12 @@ Result :
 </p>
 
 ```py
-#To show the Attribotes and it's Datatype
-a.info()
-```
-Result : 
-# <p align="center">![image](https://github.com/manojgaikwad13/Exploratory-Data-Analysis-Visualisation-on-Airbnb-Dataset/assets/96239993/e62e255d-db72-40ea-8f16-1a6f6bc9b2d6)
-</p>
-
-```py
 #To check for Duplicates
 b = a.duplicated().sum()
 print("The total number of Duplicate values : ",b)
 ```
 Result : 
-# <p align="center">![image](https://github.com/manojgaikwad13/Exploratory-Data-Analysis-Visualisation-on-Airbnb-Dataset/assets/96239993/e62e255d-db72-40ea-8f16-1a6f6bc9b2d6)
+# <p align="center">![image](https://github.com/manojgaikwad13/Exploratory-Data-Analysis-Visualisation-on-Airbnb-Dataset/assets/96239993/c2d39e33-d7e8-45c4-9273-b6f934ed8b36)
 </p>
 
 ```py
@@ -64,7 +56,7 @@ c = a.drop_duplicates(inplace = True)
 a.duplicated().sum()
 ```
 Result : 
-# <p align="center">![image](https://github.com/manojgaikwad13/Exploratory-Data-Analysis-Visualisation-on-Airbnb-Dataset/assets/96239993/e62e255d-db72-40ea-8f16-1a6f6bc9b2d6)
+# <p align="center">![image](https://github.com/manojgaikwad13/Exploratory-Data-Analysis-Visualisation-on-Airbnb-Dataset/assets/96239993/024eb900-3367-4f7a-9e87-b97e669a6f6e)
 </p>
 
 ```py
@@ -75,7 +67,7 @@ f = a.drop(['house_rules'],axis=1,inplace=True)
 a.info()
 ```
 Result : 
-# <p align="center">![image](https://github.com/manojgaikwad13/Exploratory-Data-Analysis-Visualisation-on-Airbnb-Dataset/assets/96239993/e62e255d-db72-40ea-8f16-1a6f6bc9b2d6)
+# <p align="center">![image](https://github.com/manojgaikwad13/Exploratory-Data-Analysis-Visualisation-on-Airbnb-Dataset/assets/96239993/30b150b2-5b72-49a5-a4a1-baa36e7523d0)
 </p>
 
 ```py
@@ -84,7 +76,7 @@ d = a.isnull().sum()
 print("The total number of Null values : \n",d)
 ```
 Result : 
-# <p align="center">![image](https://github.com/manojgaikwad13/Exploratory-Data-Analysis-Visualisation-on-Airbnb-Dataset/assets/96239993/e62e255d-db72-40ea-8f16-1a6f6bc9b2d6)
+# <p align="center">![image](https://github.com/manojgaikwad13/Exploratory-Data-Analysis-Visualisation-on-Airbnb-Dataset/assets/96239993/83f428e1-47c7-441a-a14e-2597136880dd)
 </p>
 
 ```py
@@ -126,17 +118,14 @@ a['calculated host listings count'].fillna(a['calculated host listings count'].m
 a['availability 365'].fillna(a['availability 365'].mode().iloc[0],inplace=True)
 ```
 
-Result : 
-# <p align="center">![image](https://github.com/manojgaikwad13/Exploratory-Data-Analysis-Visualisation-on-Airbnb-Dataset/assets/96239993/e62e255d-db72-40ea-8f16-1a6f6bc9b2d6)
-</p>
-
 ```py
 #To verify for Null values
 a.isnull().sum()
 ```
 Result : 
-# <p align="center">![image](https://github.com/manojgaikwad13/Exploratory-Data-Analysis-Visualisation-on-Airbnb-Dataset/assets/96239993/e62e255d-db72-40ea-8f16-1a6f6bc9b2d6)
+# <p align="center">![image](https://github.com/manojgaikwad13/Exploratory-Data-Analysis-Visualisation-on-Airbnb-Dataset/assets/96239993/aafa41db-4322-4a7f-b5bf-937f21edf0b1)
 </p>
+
 
 ```py
 #To List the count of various room types available in the Dataset
